@@ -8,29 +8,7 @@ client.on('ready', () => {
 //الاوامر//
 
 
-client.on("message", message => {
- if (message.content === "!help") {
-  const embed = new Discord.RichEmbed() 
-      .setColor("#ffff00")
-      .setThumbnail(message.author.avatarURL)
-      .setDescription(`
-***
-ملاحظه
-Special orders ان برفكس الاوامر المميزه او
-يختلف عن جميع الاوامر 
-Special orders برفكس الاوامر المميزه او 
-!
-اما برفكس باقي الاوامر
-!
-***
-`)
 
-
-message.author.sendEmbed(embed)
-
-}
-}); 
- 
  
  
 client.on("message", message => {
@@ -42,6 +20,7 @@ client.on("message", message => {
 ***__وصف عن البوت__***
 ** 
 Coded By : <@349095859859881984>
+
 متعدد الميزات و الاوامر فيه اوامر جميله يحتوي هذا البوت على
 خاصيه قائمه الالوان و تقدر تغير لونك زي برو بوت و مانع الاسبام و الترحيب 
 بصوره
@@ -71,8 +50,6 @@ Coded By : <@349095859859881984>
 **
 『!ping / يعرض لك سرعه اتصال البوت』
 『!uptime / يعرض لك صار للبوت كم شغال』
-『!support / سيرفر الدعم القني و المساعده』
-『!invite / اضافه البوت』
 『!members / حاله الاعضاء』
 『!bot / معلومات عن البوت』
 **
@@ -86,9 +63,6 @@ Coded By : <@349095859859881984>
 『!unmutechannel /فتح الشات』
 『!add.r / اضافه رتبه』
 『!delet / مسح روم』
-『!color 50 /انشاء 50 لون』
-『!color 100/انشاء 100 لون』
-『!color 140/انشاء 140 لوم』
 『!ct /انشاء روم كتابي』4
 『!cv /انشاء روم صوتي』
 『!bc /برودكاست』
